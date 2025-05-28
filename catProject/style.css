@@ -1,0 +1,165 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  background-color: rgba(192, 198, 220, 1);
+  margin: 27px;
+}
+.wrapper {
+  margin: auto;
+  background: #ffff;
+  width: 1200px;
+  height: 1206px;
+  margin: 27 auto;
+  border-radius: 40px;
+  display: flex;
+  padding: 13px 18px;
+  gap: 60px;
+}
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  width: 290;
+  height: 195;
+  top: 765px;
+  left: 80px;
+  gap: 8px;
+}
+.aside {
+  background-color: rgba(224, 235, 254, 0.7);
+  width: 370px;
+  height: 1206px;
+  top: 40px;
+  left: 40px;
+  border-radius: 40px;
+}
+.sideitems {
+  padding: 40px;
+}
+.profilepicture {
+  width: 370px;
+  height: 370px;
+  top: 40px;
+  left: 40px;
+  border-radius: 40px;
+  rotate: 0deg;
+}
+.button-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+ol {
+  padding: 0px;
+  padding-left: 20px;
+}
+.button1 {
+  background: rgba(117, 73, 234, 1);
+  color: #ffff;
+  font-weight: 700;
+  width: 290;
+  height: 48;
+  top: 450px;
+  left: 80px;
+  gap: 10px;
+  border-radius: 16px;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  border: 1px solid rgba(117, 73, 234, 1);
+}
+.button2 {
+  background: rgba(224, 235, 254, 0.7);
+  color: rgba(117, 73, 234, 1);
+  font-weight: 700;
+  width: 290;
+  height: 48;
+  top: 514px;
+  left: 80px;
+  gap: 10px;
+  border-radius: 16px;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  border-width: 1px;
+  border: 1px solid rgba(117, 73, 234, 1);
+}
+h1 {
+  margin: o;
+}
+.title-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 60px;
+}
+h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 24px;
+}
+.followers {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-left: 16px;
+}
+p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin: 0;
+}
+.friends {
+  margin: 48px 0px;
+}
+.i-item {
+  width: 59;
+  height: 24;
+  border-radius: 6px;
+  gap: 10px;
+  padding-right: 8px;
+  padding-left: 8px;
+  background-color: rgba(117, 73, 234, 0.2);
+  color: rgba(117, 73, 234, 1);
+  margin: 0px;
+}
+.info-box > p {
+  gap: 24px;
+  display: flex;
+}
+.info-box > p > b {
+  width: 80px;
+}
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: rgba(74, 81, 97, 1);
+  margin-top: 0.83em;
+  margin-bottom: 48px;
+}
+li::marker {
+  font-weight: bold;
+}
+li {
+  padding-left: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+ul {
+  list-style-type: disc;
+  margin-bottom: 8px;
+}
